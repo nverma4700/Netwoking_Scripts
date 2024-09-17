@@ -36,3 +36,4 @@ if __name__ == '__main__':
     ip_list = ['192.168.300.3', '10.0.0.10', '172.260.0.0', '192.168.0.100']
     for ip in ip_list:
         print(validiate_ip_address(ip))
+        print(check_valid_ip(ip))
