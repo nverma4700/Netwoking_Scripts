@@ -14,7 +14,7 @@ def check_valid_ip(ip):
         return f"{ip} is invalid IP"
     
 
-# Way 2 --> using regex
+# Way 2 --> splitting the IP and checking the regex value
 def validiate_ip_address(ip):
     '''
     First validiate if the number of octects in the IP address are correct
