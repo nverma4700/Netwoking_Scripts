@@ -7,7 +7,6 @@ Pinging each device 4 times…
 192.168.1.1 average latency: 5ms
 192.168.1.2 average latency: 8ms
 '''
-
 import subprocess
 import re
 
