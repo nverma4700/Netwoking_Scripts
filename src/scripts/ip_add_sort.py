@@ -20,7 +20,7 @@ def sort_ip_last_octect(ip_list):
     '''
     Will take a ip_list and sort it out based on last octet value of the ip address
     '''
-    sorted_ip_last_octet = sorted(ip_list, key=lambda ip: int(ip.split('.')[3]))
+    sorted_ip_last_octet = sorted(ip_list, key=lambda ip: int(ip.split('.')[-1]))
     return sorted_ip_last_octet
 
 if __name__ == '__main__':

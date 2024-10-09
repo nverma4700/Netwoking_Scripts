@@ -13,6 +13,6 @@ def as_path_extract(asn_str):
     return match
 
 if __name__ == "__main__":
-    asn_str = "AS path: 65001 65002 65003"
+    asn_str = "AS path: 65001 6500223 65003"
     asn_list = as_path_extract(asn_str)
     print(asn_list)
